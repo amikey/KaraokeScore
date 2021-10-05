@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Alertift (4.2.0)
+  - Cartography (4.0.0)
+  - EmptyStateKit (1.1.0)
+  - Eureka (5.3.3)
+  - SDWebImage (5.12.0):
+    - SDWebImage/Core (= 5.12.0)
+  - SDWebImage/Core (5.12.0)
+  - Siren (5.8.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Alertift
+  - Cartography
+  - EmptyStateKit
+  - Eureka
+  - SDWebImage
+  - Siren
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Alertift
+    - Cartography
+    - EmptyStateKit
+    - Eureka
+    - SDWebImage
+    - Siren
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Alertift: 17b37be915cd28edeceabd438e4134d041ea825c
+  Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
+  EmptyStateKit: dc41e9ce5c6089f67a49d063bce73ade9f2ba73f
+  Eureka: e6d720290c56bb23333ad1a0e020b2a98a0e9a43
+  SDWebImage: 4ea20cca2986adc5aacde07aa686742fd4c67a37
+  Siren: de768099aff1f1c9acda4247064788a4940b4bf3
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 40894971c1090f9090a32deb4424fea0e45fa308
+
+COCOAPODS: 1.10.2

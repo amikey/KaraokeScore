@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D93B841FC460C84B432DF3 /* Pods_KaraokeScore_KaraokeScoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F32F945AD03FE73D724ED29 /* Pods_KaraokeScore_KaraokeScoreUITests.framework */; };
+		4250C769270709D50020E6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C768270709D50020E6CC /* AppDelegate.swift */; };
+		4250C76B270709D50020E6CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C76A270709D50020E6CC /* SceneDelegate.swift */; };
+		4250C76D270709D50020E6CC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C76C270709D50020E6CC /* ListViewController.swift */; };
+		4250C770270709D50020E6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250C76E270709D50020E6CC /* Main.storyboard */; };
+		4250C772270709D60020E6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4250C771270709D60020E6CC /* Assets.xcassets */; };
+		4250C775270709D60020E6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250C773270709D60020E6CC /* LaunchScreen.storyboard */; };
+		4250C780270709D70020E6CC /* KaraokeScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C77F270709D70020E6CC /* KaraokeScoreTests.swift */; };
+		4250C78B270709D70020E6CC /* KaraokeScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C78A270709D70020E6CC /* KaraokeScoreUITests.swift */; };
+		4250C79927070BA70020E6CC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C79827070BA70020E6CC /* AddViewController.swift */; };
+		4250C79B27070D3B0020E6CC /* MusicCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C79A27070D3B0020E6CC /* MusicCustomCell.swift */; };
+		4250C79D27070D700020E6CC /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C79C27070D700020E6CC /* UIColor+Hex.swift */; };
+		4250C79F27070D830020E6CC /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C79E27070D830020E6CC /* CustomState.swift */; };
+		4250C7A127070DAF0020E6CC /* MusicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250C7A027070DAF0020E6CC /* MusicInfoModel.swift */; };
+		425E7B9F270752F6005578A0 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7B9E270752F6005578A0 /* RecordViewController.swift */; };
+		425E7BA127089792005578A0 /* MusicListCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7BA027089792005578A0 /* MusicListCustomCell.swift */; };
+		425E7BA32708A3E6005578A0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7BA22708A3E6005578A0 /* TabBarController.swift */; };
+		86B1D962521C86B473BDEE14 /* Pods_KaraokeScoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB943A3F0A5E3C8810B93D3 /* Pods_KaraokeScoreTests.framework */; };
+		CE37FBE8EBBB67A8C1977EF2 /* Pods_KaraokeScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E34421001BD021CBAB56C6 /* Pods_KaraokeScore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4250C77C270709D60020E6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4250C75D270709D50020E6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4250C764270709D50020E6CC;
+			remoteInfo = KaraokeScore;
+		};
+		4250C787270709D70020E6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4250C75D270709D50020E6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4250C764270709D50020E6CC;
+			remoteInfo = KaraokeScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1996CCC98258EB74588460F5 /* Pods-KaraokeScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraokeScoreTests.release.xcconfig"; path = "Target Support Files/Pods-KaraokeScoreTests/Pods-KaraokeScoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F8067C7B564F6EA0535B323 /* Pods-KaraokeScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraokeScore.debug.xcconfig"; path = "Target Support Files/Pods-KaraokeScore/Pods-KaraokeScore.debug.xcconfig"; sourceTree = "<group>"; };
+		4250C765270709D50020E6CC /* KaraokeScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaraokeScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250C768270709D50020E6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4250C76A270709D50020E6CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4250C76C270709D50020E6CC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4250C76F270709D50020E6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4250C771270709D60020E6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4250C774270709D60020E6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4250C776270709D60020E6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4250C77B270709D60020E6CC /* KaraokeScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250C77F270709D70020E6CC /* KaraokeScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeScoreTests.swift; sourceTree = "<group>"; };
+		4250C781270709D70020E6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4250C786270709D70020E6CC /* KaraokeScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250C78A270709D70020E6CC /* KaraokeScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeScoreUITests.swift; sourceTree = "<group>"; };
+		4250C78C270709D70020E6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4250C79827070BA70020E6CC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		4250C79A27070D3B0020E6CC /* MusicCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCustomCell.swift; sourceTree = "<group>"; };
+		4250C79C27070D700020E6CC /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		4250C79E27070D830020E6CC /* CustomState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		4250C7A027070DAF0020E6CC /* MusicInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfoModel.swift; sourceTree = "<group>"; };
+		425E7B9E270752F6005578A0 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		425E7BA027089792005578A0 /* MusicListCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListCustomCell.swift; sourceTree = "<group>"; };
+		425E7BA22708A3E6005578A0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4A6A728D63BB9F04FC4E7D53 /* Pods-KaraokeScore-KaraokeScoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraokeScore-KaraokeScoreUITests.release.xcconfig"; path = "Target Support Files/Pods-KaraokeScore-KaraokeScoreUITests/Pods-KaraokeScore-KaraokeScoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63E9FFBBFE7F616CAD29B559 /* Pods-KaraokeScore-KaraokeScoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraokeScore-KaraokeScoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-KaraokeScore-KaraokeScoreUITests/Pods-KaraokeScore-KaraokeScoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79E34421001BD021CBAB56C6 /* Pods_KaraokeScore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaraokeScore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F32F945AD03FE73D724ED29 /* Pods_KaraokeScore_KaraokeScoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaraokeScore_KaraokeScoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB943A3F0A5E3C8810B93D3 /* Pods_KaraokeScoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaraokeScoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C372FEA7651529CE75870309 /* Pods-KaraokeScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraokeScore.release.xcconfig"; path = "Target Support Files/Pods-KaraokeScore/Pods-KaraokeScore.release.xcconfig"; sourceTree = "<group>"; };
+		ECFBFC7C7A822F86F0966BAE /* Pods-KaraokeScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraokeScoreTests.debug.xcconfig"; path = "Target Support Files/Pods-KaraokeScoreTests/Pods-KaraokeScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4250C762270709D50020E6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE37FBE8EBBB67A8C1977EF2 /* Pods_KaraokeScore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250C778270709D60020E6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1D962521C86B473BDEE14 /* Pods_KaraokeScoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250C783270709D70020E6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D93B841FC460C84B432DF3 /* Pods_KaraokeScore_KaraokeScoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4250C75C270709D50020E6CC = {
+			isa = PBXGroup;
+			children = (
+				4250C767270709D50020E6CC /* KaraokeScore */,
+				4250C77E270709D70020E6CC /* KaraokeScoreTests */,
+				4250C789270709D70020E6CC /* KaraokeScoreUITests */,
+				4250C766270709D50020E6CC /* Products */,
+				4F71C37F0EB6478EF9D4F146 /* Pods */,
+				DF01EFBFBD3B886A2FA16FCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4250C766270709D50020E6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4250C765270709D50020E6CC /* KaraokeScore.app */,
+				4250C77B270709D60020E6CC /* KaraokeScoreTests.xctest */,
+				4250C786270709D70020E6CC /* KaraokeScoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4250C767270709D50020E6CC /* KaraokeScore */ = {
+			isa = PBXGroup;
+			children = (
+				425E7B9B27071846005578A0 /* List */,
+				425E7B9C2707184D005578A0 /* Add */,
+				425E7B9D2707186A005578A0 /* Back */,
+				4250C76E270709D50020E6CC /* Main.storyboard */,
+				4250C771270709D60020E6CC /* Assets.xcassets */,
+				4250C773270709D60020E6CC /* LaunchScreen.storyboard */,
+				4250C776270709D60020E6CC /* Info.plist */,
+			);
+			path = KaraokeScore;
+			sourceTree = "<group>";
+		};
+		4250C77E270709D70020E6CC /* KaraokeScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				4250C77F270709D70020E6CC /* KaraokeScoreTests.swift */,
+				4250C781270709D70020E6CC /* Info.plist */,
+			);
+			path = KaraokeScoreTests;
+			sourceTree = "<group>";
+		};
+		4250C789270709D70020E6CC /* KaraokeScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4250C78A270709D70020E6CC /* KaraokeScoreUITests.swift */,
+				4250C78C270709D70020E6CC /* Info.plist */,
+			);
+			path = KaraokeScoreUITests;
+			sourceTree = "<group>";
+		};
+		425E7B9B27071846005578A0 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				4250C76C270709D50020E6CC /* ListViewController.swift */,
+				4250C79A27070D3B0020E6CC /* MusicCustomCell.swift */,
+				425E7BA027089792005578A0 /* MusicListCustomCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		425E7B9C2707184D005578A0 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				4250C79827070BA70020E6CC /* AddViewController.swift */,
+				425E7B9E270752F6005578A0 /* RecordViewController.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		425E7B9D2707186A005578A0 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				4250C768270709D50020E6CC /* AppDelegate.swift */,
+				4250C76A270709D50020E6CC /* SceneDelegate.swift */,
+				4250C79E27070D830020E6CC /* CustomState.swift */,
+				4250C7A027070DAF0020E6CC /* MusicInfoModel.swift */,
+				4250C79C27070D700020E6CC /* UIColor+Hex.swift */,
+				425E7BA22708A3E6005578A0 /* TabBarController.swift */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		4F71C37F0EB6478EF9D4F146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F8067C7B564F6EA0535B323 /* Pods-KaraokeScore.debug.xcconfig */,
+				C372FEA7651529CE75870309 /* Pods-KaraokeScore.release.xcconfig */,
+				63E9FFBBFE7F616CAD29B559 /* Pods-KaraokeScore-KaraokeScoreUITests.debug.xcconfig */,
+				4A6A728D63BB9F04FC4E7D53 /* Pods-KaraokeScore-KaraokeScoreUITests.release.xcconfig */,
+				ECFBFC7C7A822F86F0966BAE /* Pods-KaraokeScoreTests.debug.xcconfig */,
+				1996CCC98258EB74588460F5 /* Pods-KaraokeScoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF01EFBFBD3B886A2FA16FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E34421001BD021CBAB56C6 /* Pods_KaraokeScore.framework */,
+				8F32F945AD03FE73D724ED29 /* Pods_KaraokeScore_KaraokeScoreUITests.framework */,
+				AEB943A3F0A5E3C8810B93D3 /* Pods_KaraokeScoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4250C764270709D50020E6CC /* KaraokeScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250C78F270709D70020E6CC /* Build configuration list for PBXNativeTarget "KaraokeScore" */;
+			buildPhases = (
+				8C64F05713AFA48981051055 /* [CP] Check Pods Manifest.lock */,
+				4250C761270709D50020E6CC /* Sources */,
+				4250C762270709D50020E6CC /* Frameworks */,
+				4250C763270709D50020E6CC /* Resources */,
+				45E1E82C04E3374DCD4CF9AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaraokeScore;
+			productName = KaraokeScore;
+			productReference = 4250C765270709D50020E6CC /* KaraokeScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4250C77A270709D60020E6CC /* KaraokeScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250C792270709D70020E6CC /* Build configuration list for PBXNativeTarget "KaraokeScoreTests" */;
+			buildPhases = (
+				C29B6B256F4338B7640DE8D2 /* [CP] Check Pods Manifest.lock */,
+				4250C777270709D60020E6CC /* Sources */,
+				4250C778270709D60020E6CC /* Frameworks */,
+				4250C779270709D60020E6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4250C77D270709D60020E6CC /* PBXTargetDependency */,
+			);
+			name = KaraokeScoreTests;
+			productName = KaraokeScoreTests;
+			productReference = 4250C77B270709D60020E6CC /* KaraokeScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4250C785270709D70020E6CC /* KaraokeScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250C795270709D70020E6CC /* Build configuration list for PBXNativeTarget "KaraokeScoreUITests" */;
+			buildPhases = (
+				69EB51F13DF9ACB0E71B6C96 /* [CP] Check Pods Manifest.lock */,
+				4250C782270709D70020E6CC /* Sources */,
+				4250C783270709D70020E6CC /* Frameworks */,
+				4250C784270709D70020E6CC /* Resources */,
+				1B12F02C31FD71CBC852FF59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4250C788270709D70020E6CC /* PBXTargetDependency */,
+			);
+			name = KaraokeScoreUITests;
+			productName = KaraokeScoreUITests;
+			productReference = 4250C786270709D70020E6CC /* KaraokeScoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4250C75D270709D50020E6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4250C764270709D50020E6CC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4250C77A270709D60020E6CC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4250C764270709D50020E6CC;
+					};
+					4250C785270709D70020E6CC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4250C764270709D50020E6CC;
+					};
+				};
+			};
+			buildConfigurationList = 4250C760270709D50020E6CC /* Build configuration list for PBXProject "KaraokeScore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4250C75C270709D50020E6CC;
+			productRefGroup = 4250C766270709D50020E6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4250C764270709D50020E6CC /* KaraokeScore */,
+				4250C77A270709D60020E6CC /* KaraokeScoreTests */,
+				4250C785270709D70020E6CC /* KaraokeScoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4250C763270709D50020E6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250C775270709D60020E6CC /* LaunchScreen.storyboard in Resources */,
+				4250C772270709D60020E6CC /* Assets.xcassets in Resources */,
+				4250C770270709D50020E6CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250C779270709D60020E6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250C784270709D70020E6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B12F02C31FD71CBC852FF59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaraokeScore-KaraokeScoreUITests/Pods-KaraokeScore-KaraokeScoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaraokeScore-KaraokeScoreUITests/Pods-KaraokeScore-KaraokeScoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaraokeScore-KaraokeScoreUITests/Pods-KaraokeScore-KaraokeScoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E1E82C04E3374DCD4CF9AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaraokeScore/Pods-KaraokeScore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaraokeScore/Pods-KaraokeScore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaraokeScore/Pods-KaraokeScore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69EB51F13DF9ACB0E71B6C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaraokeScore-KaraokeScoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C64F05713AFA48981051055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaraokeScore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29B6B256F4338B7640DE8D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaraokeScoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4250C761270709D50020E6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250C76D270709D50020E6CC /* ListViewController.swift in Sources */,
+				4250C79B27070D3B0020E6CC /* MusicCustomCell.swift in Sources */,
+				425E7BA32708A3E6005578A0 /* TabBarController.swift in Sources */,
+				4250C769270709D50020E6CC /* AppDelegate.swift in Sources */,
+				425E7B9F270752F6005578A0 /* RecordViewController.swift in Sources */,
+				4250C79D27070D700020E6CC /* UIColor+Hex.swift in Sources */,
+				4250C79F27070D830020E6CC /* CustomState.swift in Sources */,
+				425E7BA127089792005578A0 /* MusicListCustomCell.swift in Sources */,
+				4250C79927070BA70020E6CC /* AddViewController.swift in Sources */,
+				4250C7A127070DAF0020E6CC /* MusicInfoModel.swift in Sources */,
+				4250C76B270709D50020E6CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250C777270709D60020E6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250C780270709D70020E6CC /* KaraokeScoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250C782270709D70020E6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250C78B270709D70020E6CC /* KaraokeScoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4250C77D270709D60020E6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4250C764270709D50020E6CC /* KaraokeScore */;
+			targetProxy = 4250C77C270709D60020E6CC /* PBXContainerItemProxy */;
+		};
+		4250C788270709D70020E6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4250C764270709D50020E6CC /* KaraokeScore */;
+			targetProxy = 4250C787270709D70020E6CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4250C76E270709D50020E6CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250C76F270709D50020E6CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4250C773270709D60020E6CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250C774270709D60020E6CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4250C78D270709D70020E6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4250C78E270709D70020E6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4250C790270709D70020E6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8067C7B564F6EA0535B323 /* Pods-KaraokeScore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = KaraokeScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eijis00.KaraokeScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4250C791270709D70020E6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C372FEA7651529CE75870309 /* Pods-KaraokeScore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = KaraokeScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eijis00.KaraokeScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4250C793270709D70020E6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFBFC7C7A822F86F0966BAE /* Pods-KaraokeScoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = KaraokeScoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eijis00.KaraokeScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaraokeScore.app/KaraokeScore";
+			};
+			name = Debug;
+		};
+		4250C794270709D70020E6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1996CCC98258EB74588460F5 /* Pods-KaraokeScoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = KaraokeScoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eijis00.KaraokeScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaraokeScore.app/KaraokeScore";
+			};
+			name = Release;
+		};
+		4250C796270709D70020E6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E9FFBBFE7F616CAD29B559 /* Pods-KaraokeScore-KaraokeScoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = KaraokeScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eijis00.KaraokeScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaraokeScore;
+			};
+			name = Debug;
+		};
+		4250C797270709D70020E6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6A728D63BB9F04FC4E7D53 /* Pods-KaraokeScore-KaraokeScoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = KaraokeScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eijis00.KaraokeScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaraokeScore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4250C760270709D50020E6CC /* Build configuration list for PBXProject "KaraokeScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250C78D270709D70020E6CC /* Debug */,
+				4250C78E270709D70020E6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4250C78F270709D70020E6CC /* Build configuration list for PBXNativeTarget "KaraokeScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250C790270709D70020E6CC /* Debug */,
+				4250C791270709D70020E6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4250C792270709D70020E6CC /* Build configuration list for PBXNativeTarget "KaraokeScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250C793270709D70020E6CC /* Debug */,
+				4250C794270709D70020E6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4250C795270709D70020E6CC /* Build configuration list for PBXNativeTarget "KaraokeScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250C796270709D70020E6CC /* Debug */,
+				4250C797270709D70020E6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4250C75D270709D50020E6CC /* Project object */;
+}
