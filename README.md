@@ -4,7 +4,25 @@
 
 ## アプリケーション概要
 
-AppleMusic内の曲のカラオケスコアを記録するアプリ
+AppleMusic内の曲のカラオケスコアを記録するアプリ  
+
+## 使用言語・技術
+
+Swift  
+Xcode  
+CocoaPods  
+iTunes API  
+
+## 使用ライブラリ
+
+Alamofire  
+SwiftyJSON  
+SDWebImage  
+Cartography  
+Siren  
+Alertift  
+EmptyStateKit  
+Eureka  
 
 ## 背景
 
